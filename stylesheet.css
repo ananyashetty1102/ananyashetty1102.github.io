@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+input[name=fname],input[name=lname],select[name=semester],input[name=email]
+{
+    width: 100%;
+    padding: 10px;
+}
+
+input[type=tel]
+{
+    width:80%;
+    padding: 10px;
+}
+
+input[name=code]
+{
+    padding: 10px;
+}
+
+button[type=submit]
+{
+    width: 20%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+h1{
+    color: darkolivegreen;
+}
