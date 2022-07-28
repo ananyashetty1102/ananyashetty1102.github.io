@@ -6,17 +6,29 @@ input[name=fname],input[name=lname],select[name=semester],input[name=email]
 {
     width: 100%;
     padding: 10px;
+    border-width: 3px;
+    border-color: black;
+}
+
+input[type=checkbox],input[type=radio]
+{
+    height: 20px;
+    width: 20px;
 }
 
 input[type=tel]
 {
     width:80%;
     padding: 10px;
+    border-width: 3px;
+    border-color: black;
 }
 
 input[name=code]
 {
     padding: 10px;
+    border-width: 3px;
+    border-color: black;
 }
 
 button[type=submit]
@@ -27,6 +39,6 @@ button[type=submit]
     color: white;
 }
 
-h1{
-    color: darkolivegreen;
+hr{
+    border-width: 4px;
 }
