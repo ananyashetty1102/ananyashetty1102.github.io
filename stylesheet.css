@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-input[name=fname],input[name=lname],select[name=semester],input[name=email]
+input[name=fname],input[name=lname],select[name=semester],select[name=division],input[name=email],input[name=clg_name]
 {
     width: 100%;
     padding: 10px;
